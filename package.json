@@ -1,0 +1,9 @@
+{
+  "name": "unmind-student-wellness",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "typecheck": "tsc -b --pretty false", "build": "npm run typecheck && vite build", "preview": "vite preview" },
+  "dependencies": { "react": "latest", "react-dom": "latest", "lucide-react": "^0.468.0" },
+  "devDependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "@types/react": "latest", "@types/react-dom": "latest" }
+}
